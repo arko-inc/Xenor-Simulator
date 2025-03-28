@@ -228,7 +228,7 @@ export default function Environment() {
               <Slider
                 min={0}
                 max={360}
-                step={90}
+                step={1}
                 value={[params.windDirection]}
                 onValueChange={(val) => setParams(p => ({...p, windDirection: val[0]}))}
                 className="[&_[role=slider]]:bg-amber-500 flex-1"
